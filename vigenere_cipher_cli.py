@@ -8,8 +8,6 @@ class VigenereCipher(object):
             copy = self.alphabets[i:] + self.alphabets[:i]
             self.alphabet_table.append(copy)
             self.corresponding_alphabet_indexes[self.alphabets[i]] = i
-        print(self.alphabet_table)
-
     def encode(self, text):
         new_key = ''
         index = 0
@@ -37,7 +35,6 @@ class VigenereCipher(object):
             if index >= len(self.key):
                 index = 0
         decoded_word = ''
-        # print(new_key)
         for i in range(len(text)):
             if text[i] in self.alphabets and new_key[i] in self.alphabets:
                 key_index = self.corresponding_alphabet_indexes.get(new_key[i])
