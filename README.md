@@ -6,7 +6,7 @@ A CLI (Command-Line Interface) version for interactive use
 A module version (importable class) for programmatic use
 
 # 📁 Files
-vigenere_cipher_cli.py — Interactive CLI version
+```vigenere_cipher_cli.py``` — Interactive CLI version
 
 vigenere_cipher_module.py — Importable class version
 
@@ -43,6 +43,7 @@ Enter Encrypted word: RIJVSUYVJN
 Enter the key: KEY
 Your plain text message is: HELLOWORLD```
 2. 🔸 Module Version: ```vigenere_cipher_module.py```
+
 ## ✅ Features:
 Fully reusable VigenereCipher class
 
