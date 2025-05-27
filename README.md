@@ -6,17 +6,17 @@ A CLI (Command-Line Interface) version for interactive use
 A module version (importable class) for programmatic use
 
 # 📁 Files
-vigenere_cipher_cli.py — Interactive CLI version
+```vigenere_cipher_cli.py — Interactive CLI version
 
-vigenere_cipher_module.py — Importable class version
+vigenere_cipher_module.py — Importable class version```
 
 # 🧪 Requirements
-Python 3.x
+```Python 3.x```
 
 No external dependencies.
 
 # 🚀 Usage
-1. 🔸 CLI Version: vigenere_cipher_cli.py
+1. 🔸 CLI Version: ```vigenere_cipher_cli.py```
 ✅ Features:
 Interactive prompt for encryption and decryption
 
@@ -31,7 +31,7 @@ Uses a full Vigenère table (26x26 Caesar-shifted rows)
 python vigenere_cipher_cli.py
 ## 🖥️ Sample Session:
 
-Enter do you want to quit? (yes/no): no
+```Enter do you want to quit? (yes/no): no
 "e" for encryption and "d" for decryption: e
 Enter message you want to encrypt: HELLOWORLD
 Enter the key: KEY
@@ -41,8 +41,8 @@ Enter do you want to quit? (yes/no): no
 "e" for encryption and "d" for decryption: d
 Enter Encrypted word: RIJVSUYVJN
 Enter the key: KEY
-Your plain text message is: HELLOWORLD
-2. 🔸 Module Version: vigenere_cipher_module.py
+Your plain text message is: HELLOWORLD```
+2. 🔸 Module Version: ```vigenere_cipher_module.py```
 ## ✅ Features:
 Fully reusable VigenereCipher class
 
