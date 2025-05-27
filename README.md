@@ -31,7 +31,6 @@ Uses a full Vigenère table (26x26 Caesar-shifted rows)
 python vigenere_cipher_cli.py
 # 🖥️ Sample Session:
 
-
 Enter do you want to quit? (yes/no): no
 "e" for encryption and "d" for decryption: e
 Enter message you want to encrypt: HELLOWORLD
@@ -55,7 +54,7 @@ Key is repeated to match the full length of the input (no skipping non-alphabet 
 
 # ▶️ Example Usage:
 python
-
+```
 
 from vigenere_cipher_module import VigenereCipher
 
@@ -69,6 +68,7 @@ print(encoded)  # Output: rovwsoiv
 
 decoded = cipher.decode(encoded)
 print(decoded)  # Output: codewars
+```
 # 📌 Notes
 In the CLI version, only uppercase English letters (A–Z) are supported.
 
