@@ -6,7 +6,7 @@ A CLI (Command-Line Interface) version for interactive use
 A module version (importable class) for programmatic use
 
 # 📁 Files
-```vigenere_cipher_cli.py — Interactive CLI version
+vigenere_cipher_cli.py — Interactive CLI version
 
 vigenere_cipher_module.py — Importable class version
 
