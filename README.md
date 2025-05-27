@@ -8,7 +8,7 @@ A module version (importable class) for programmatic use
 ## 📁 Files
 ```vigenere_cipher_cli.py``` — Interactive CLI version
 
-```vigenere_cipher_module.py``` — Importable class version
+```vigenere_cipher_module.py``` — Importable class version (```Highly suggesting trying this one because cli version isn't complete and has too many bugs.```)
 
 ## 🧪 Requirements
 ```Python 3.x```
