@@ -43,7 +43,7 @@ Enter Encrypted word: RIJVSUYVJN
 Enter the key: KEY
 Your plain text message is: HELLOWORLD
 2. 🔸 Module Version: vigenere_cipher_module.py
-# ✅ Features:
+## ✅ Features:
 Fully reusable VigenereCipher class
 
 Works with any custom alphabet (e.g. lowercase, uppercase, symbols)
