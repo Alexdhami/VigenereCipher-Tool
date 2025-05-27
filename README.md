@@ -29,7 +29,7 @@ Uses a full Vigenère table (26x26 Caesar-shifted rows)
 # ▶️ How to Run:
 
 python vigenere_cipher_cli.py
-# 🖥️ Sample Session:
+## 🖥️ Sample Session:
 
 Enter do you want to quit? (yes/no): no
 "e" for encryption and "d" for decryption: e
