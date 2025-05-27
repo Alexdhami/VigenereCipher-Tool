@@ -25,7 +25,6 @@ class VigenereCipher(object):
             else:
                 encoded_word += text[i]
         return encoded_word
-
     def decode(self, text):
         new_key = ''
         index = 0
