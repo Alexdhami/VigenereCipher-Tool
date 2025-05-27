@@ -41,7 +41,7 @@ Enter do you want to quit? (yes/no): no
 "e" for encryption and "d" for decryption: d
 Enter Encrypted word: RIJVSUYVJN
 Enter the key: KEY
-Your plain text message is: HELLOWORLD```
+Your plain text message is: HELLOWORLD  ```
 2. 🔸 Module Version: ```vigenere_cipher_module.py```
 
 ## ✅ Features:
