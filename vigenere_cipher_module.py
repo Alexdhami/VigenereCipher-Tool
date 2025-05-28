@@ -42,3 +42,10 @@ class VigenereCipher(object):
             else:
                 decoded_word += text[i]
         return decoded_word
+        
+if __name__ == '__main__':
+    key = 'fuck you'
+    abc = ''.join([chr(i) for i in range(32,127)])
+    obj = VigenereCipher(key,abc)
+    print(obj.encode('Alex Dhami.'))
+    print(obj.decode('(bId >XWT_q'))
