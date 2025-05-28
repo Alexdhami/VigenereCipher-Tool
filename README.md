@@ -8,7 +8,7 @@ A module version (importable class) for programmatic use
 ## 📁 Files
 ```vigenere_cipher_cli.py``` — Interactive CLI version
 
-```vigenere_cipher_module.py``` — Importable class version (```Highly suggesting trying this one because cli version isn't complete and has too many bugs.```)
+```vigenere_cipher_module.py``` — Importable class version 
 
 ## 🧪 Requirements
 ```Python 3.x```
@@ -19,13 +19,13 @@ No external dependencies.
 1. 🔸 CLI Version: ```vigenere_cipher_cli.py```
    
 ### ✅ Features:
-Interactive prompt for encryption and decryption
+Fully reusable VigenereCipher class
 
-You must provide the key and it assumes only capital letters (A–Z)
+Works with any custom alphabet (e.g. lowercase, uppercase, symbols)
 
-Spaces are removed from input for simplicity
+Preserves non-alphabet characters as-is
 
-Uses a full Vigenère table (26x26 Caesar-shifted rows)
+Key is repeated to match the full length of the input (no skipping non-alphabet characters)
 
 ## ▶️ How to Run:
 
@@ -35,15 +35,15 @@ Uses a full Vigenère table (26x26 Caesar-shifted rows)
 ```
 Enter do you want to quit? (yes/no): no
 "e" for encryption and "d" for decryption: e
-Enter message you want to encrypt: HELLOWORLD
-Enter the key: KEY
-Your encrypted word RIJVSUYVJN.
-
+Enter messege you want to encrypt: My name is Alex Dhami and I am From {country}
+Enter the key: diddy's huge D
+Your encrypted messege is :2cdS[tY Rig'l*]i)M[t] JdLeIDFWd+lva dYW[n9Wcb
 Enter do you want to quit? (yes/no): no
 "e" for encryption and "d" for decryption: d
-Enter Encrypted word: RIJVSUYVJN
-Enter the key: KEY
-Your plain text message is: HELLOWORLD  
+Enter Encrypted word: 2cdS[tY Rig'l*]i)M[t] JdLeIDFWd+lva dYW[n9Wcb
+Enter the key: diddy's huge D
+Your plain text messege is : My name is Alex Dhami and I am From {country}
+Enter do you want to quit? (yes/no): yes  
 ```
 2. 🔸 Module Version: ```vigenere_cipher_module.py```
 
@@ -73,12 +73,6 @@ print(encoded)  # Output: rovwsoiv
 decoded = cipher.decode(encoded)
 print(decoded)  # Output: codewars
 ```
-## 📌 Notes
-In the CLI version, only uppercase English letters (A–Z) are supported.
-
-In the module version, any alphabet can be used (e.g. lowercase only, alphanumeric, etc.).
-
-Characters not in the alphabet are left unchanged.
 
 ## 🧠 Vigenère Cipher Summary
 The Vigenère Cipher is a method of encrypting text by applying a series of Caesar ciphers based on a keyword. It creates a polyalphabetic substitution system that is much harder to break than a regular Caesar cipher.
