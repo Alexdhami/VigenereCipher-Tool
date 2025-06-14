@@ -5,20 +5,20 @@ A CLI (Command-Line Interface) version for interactive use
 
 A module version (importable class) for programmatic use
 
-## 📁 Files
+##  Files
 ```vigenere_cipher_cli.py``` — Interactive CLI version
 
 ```vigenere_cipher_module.py``` — Importable class version 
 
-## 🧪 Requirements
+##  Requirements
 ```Python 3.x```
 
 No external dependencies.
 
-## 🚀 Usage
-1. 🔸 CLI Version: ```vigenere_cipher_cli.py```
+##  Usage
+1.  CLI Version: ```vigenere_cipher_cli.py```
    
-### ✅ Features:
+### Features:
 Fully reusable VigenereCipher class
 
 Works with any custom alphabet (e.g. lowercase, uppercase, symbols)
@@ -27,10 +27,10 @@ Preserves non-alphabet characters as-is
 
 Key is repeated to match the full length of the input (no skipping non-alphabet characters)
 
-## ▶️ How to Run:
+## ▶ How to Run:
 
 ```python vigenere_cipher_cli.py```
-### 🖥️ Sample Session:
+###  Sample Session:
 
 ```
 Enter do you want to quit? (yes/no): no
@@ -45,9 +45,9 @@ Enter the key: diddy's huge D
 Your plain text messege is : My name is Alex Dhami and I am From {country}
 Enter do you want to quit? (yes/no): yes  
 ```
-2. 🔸 Module Version: ```vigenere_cipher_module.py```
+2.  Module Version: ```vigenere_cipher_module.py```
 
-### ✅ Features:
+###  Features:
 Fully reusable VigenereCipher class
 
 Works with any custom alphabet (e.g. lowercase, uppercase, symbols)
@@ -56,7 +56,7 @@ Preserves non-alphabet characters as-is
 
 Key is repeated to match the full length of the input (no skipping non-alphabet characters)
 
-## ▶️ Example Usage:
+##  Example Usage:
 python
 ```
 
@@ -74,9 +74,10 @@ decoded = cipher.decode(encoded)
 print(decoded)  # Output: codewars
 ```
 
-## 🧠 Vigenère Cipher Summary
+##  Vigenère Cipher Summary
 The Vigenère Cipher is a method of encrypting text by applying a series of Caesar ciphers based on a keyword. It creates a polyalphabetic substitution system that is much harder to break than a regular Caesar cipher.
 
-# 🛠️ Author
-Created with 🧠 by ``Alex Dhami``
+## Author
 
+**Alex Dhami**  
+GitHub: [https://github.com/Alexdhami](https://github.com/Alexdhami)
